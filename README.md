@@ -16,9 +16,11 @@ FinScan AI is a modern, cross-platform mobile application built with React Nativ
   <img src="https://github.com/user-attachments/assets/f75c34e6-2bcf-4c64-af1a-c9419046599a" alt="Dashboard" width="160"/>
   <img src="https://github.com/user-attachments/assets/842010eb-a80d-4240-ae15-355483cefaa1" alt="Create Transaction" width="160"/>
   <img src="https://github.com/user-attachments/assets/f17406f9-4372-473b-8f58-675f6df17ecf" alt="AI Scanner Page" width="160"/>
+  </p>    
+  <p align="center">
   <img src="https://github.com/user-attachments/assets/5eb29aac-792d-40a3-a790-860c1360c3ed" alt="Camera View" width="160"/>
   <img src="https://github.com/user-attachments/assets/04c73922-8317-4ae1-bf2a-e8775589f699" alt="Extracted Receipt" width="160"/>
-</p>
+   </p>
 
 
 
@@ -79,4 +81,5 @@ FinScan AI is a modern, cross-platform mobile application built with React Nativ
 *   **Offline Support:** Cache transactions created offline and sync them with the backend when connectivity is restored.
 *   **Testing:** Implement unit and integration tests using Jest and React Native Testing Library.
 *   **UI/UX Polish:** Add animations and refine the user experience further.
+
 
