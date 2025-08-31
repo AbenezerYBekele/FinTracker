@@ -53,24 +53,19 @@ FinScan AI is a modern, cross-platform mobile application built with React Nativ
     npx expo start
     ```
 
-3.  **Set up environment variables:**
-    Create a file named `.env` in the root of the project and add your service keys. The application code is already set up to use these via Expo's environment variable system.
+3. **create gemini api key for image processing**
+    components > API.js>
+   GEMINI_API_KEY = ""
 
-    ```
-    EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_YOUR_CLERK_KEY"
-    EXPO_PUBLIC_API_URL="http://your-backend-api-url.com"
-    EXPO_PUBLIC_AI_API_KEY="your_ai_service_api_key" 
-    ```
-    > The `create.jsx` and `AIRecipt.jsx` files use an imported `API_URL`. Ensure this constant points to your running backend.
 
-4.  **Backend Service:**
+5.  **Backend Service:**
     This project requires a backend service to handle transaction data. The backend must expose the following endpoints:
     *   `GET /`: Fetches all transactions and a summary for a user.
     *   `POST /`: Creates a new transaction.
     *   `DELETE /`: Deletes a specific transaction.
     *   `POST /`: An endpoint that takes a base64 image and returns structured JSON data (` title, amount, type `).
 
-5.  **Run the application:**
+6.  **Run the application:**
     ```bash
     npx expo start
     ```
@@ -84,3 +79,4 @@ FinScan AI is a modern, cross-platform mobile application built with React Nativ
 *   **Offline Support:** Cache transactions created offline and sync them with the backend when connectivity is restored.
 *   **Testing:** Implement unit and integration tests using Jest and React Native Testing Library.
 *   **UI/UX Polish:** Add animations and refine the user experience further.
+
