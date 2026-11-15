@@ -1,5 +1,5 @@
 # FinTracker AI
-FinScan AI is a modern, cross-platform mobile application built with React Native and Expo that simplifies personal finance management. It features a clean user interface, secure authentication, and a powerful AI-driven receipt scanner to automate transaction entry.
+FinScan AI is a modern, cross platform mobile application built with React Native and Expo that simplifies personal finance management. It features a clean user interface, secure authentication, and a powerful AI driven receipt scanner to automate transaction entry.
 
 ## ✨ Core Features
 - Secure Authentication: User sign-up, sign-in, and session management powered by Clerk.
